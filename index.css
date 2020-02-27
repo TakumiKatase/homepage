@@ -1,0 +1,13 @@
+.svg {
+  width: 100px;
+  height: 100px;
+}
+
+.inyoutaikyoku1 {
+  animation: r1 1s linear infinite;
+}
+
+@keyframes r1 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
