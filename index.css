@@ -80,17 +80,50 @@
 .main {
   display: flex;
   flex-direction: column;
-  width: 100%;
   text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 5vh 0;
   z-index: 3;
 }
 
 .main h1 {
-  font-size: 100px;
+  font-size: 5vw;
+  color: #E6E6FA;
+  z-index: 3;
+}
+
+.mylogo {
+  width: 30%;
+  height: auto;
   z-index: 3;
 }
 
 .main h2 {
-  font-size: 80px;
-  z-index: 3;
+  margin: 0;
+  padding: 0;
+  color: #778899;
+  font-size: 3vw;
+}
+
+.main table {
+  width: 65%;
+  border: none;
+  border-spacing: 0;
+  font-size: 1.5vw;
+}
+
+.main table th {
+  border: none;
+  border-bottom: solid 2px #696969;
+  color: #696969;
+  padding: 1vh 1vw;
+}
+
+.main table td {
+  border: none;
+  border-bottom: solid 2px #696969;
+  text-align: left;
+  color: #E6E6FA;
+  padding: 1vh 1vw;
 }
